@@ -1,0 +1,7 @@
+aiogram
+black
+django
+pillow
+psycopg2-binary
+python-dotenv
+ruff
