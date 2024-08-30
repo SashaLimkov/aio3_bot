@@ -24,6 +24,7 @@ class Anime(TimeBasedModel):
     genres = models.ManyToManyField(Genre)
     rating = models.CharField(max_length=10, choices=Rating.choices, default=None, null=True, blank=True)
     anime_rating = models.FloatField(null=True, blank=True, default=None)
+    about_anime = models.TextField(max_length=1024, null=True, blank=True)
 
 
 class UserAnime(TimeBasedModel):
